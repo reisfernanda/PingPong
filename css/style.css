@@ -1,0 +1,120 @@
+/* Documento de estilo para o jogo Ping Pong */
+
+body{
+
+	background: #272822;
+	font-family: Verdana;
+	text-align: center;
+	font-weight: bold;
+	color: #A6E22E;
+}
+
+#playground{
+	border: #A6E22E solid 1px;
+	width: 600px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin: 20px auto;
+}
+
+#ball {
+	background: #FD971F;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 200px;
+	top: 100px;
+	border-radius: 10px;
+}
+
+.paddle {
+	background: #7109AA;
+	left: 50px;
+	top: 90px;
+	position: absolute;
+	width: 30px;
+	height: 70px;
+}
+
+#paddleB {
+	left: 500px;
+}
+
+#popup .hide{
+	display:none;
+}
+
+#scoreboard{
+	margin: 0 auto;
+}
+
+#scoreboard td{
+    border: 5px solid #A6E22E;
+    padding: 10px 20px;
+}
+
+.hide{
+	display: none;
+}
+
+.form{
+	width: 800px;
+	margin: auto;
+	text-align: left;
+	border: #A6E22E solid 1px;
+	padding: 30px;
+}
+
+.form input{
+	margin-right: 10px;
+}
+
+.orange{
+	color: #FD971F;
+}
+
+.button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ab56e8), color-stop(1, #ab56e8) );
+	background:-moz-linear-gradient( center top, #ab56e8 5%, #ab56e8 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8e33d4', endColorstr='#4f0c85');
+	background-color:#ab56e8;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+	text-indent:0;
+	border:1px solid #a946f5;
+	display:inline-block;
+	color:#272822;
+	font-family:Verdana;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px -1px 0px #481870;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8a26cc), color-stop(1, #8e33d4) );
+	background:-moz-linear-gradient( center top, #8a26cc 5%, #921ce6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f0c85', endColorstr='#921ce6');
+	background-color:#921ce6;
+	cursor: pointer;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}

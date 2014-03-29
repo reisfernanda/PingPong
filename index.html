@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ping Pong</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<header>
+		<h1>Ping Pong</h1>
+	</header>
+
+	<section class="form">
+		<form id="playersForm" action="pingpong.html" method="GET">
+			<label>Jogador A: </label>
+			<input type="text" name="jogadorA" id="jogadorA"/>   
+			<br/>
+			<label>Jogador B: </label>
+			<input type="text" name="jogadorB" id="jogadorB"/>   
+			<br/>
+			<input class="button" id="submitPlayers" type="submit" value="Iniciar jogo"/>
+		</form>
+	</section>
+
+	<script src="js/jquery/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery/jquery.validate.js"></script>
+	<script src="js/validateFields.js"></script>
+</body>
+</html>
